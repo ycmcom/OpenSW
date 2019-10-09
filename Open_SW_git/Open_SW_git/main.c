@@ -20,6 +20,9 @@ int main(void) {
 	else if (n == '/') {
 		printf("결과는 %d 입니다\n", x / y);
 	}
+	else if (n == '%') {
+		printf("결과는 %d 입니다\n", x % y);
+	}
 	else
 		printf("맞지 않는 연산자입니다. \n");
 	
